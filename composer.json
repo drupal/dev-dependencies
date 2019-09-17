@@ -4,7 +4,7 @@
     "description": "require-dev dependencies from drupal/drupal; use in addition to drupal/core-recommended to run tests from drupal/core.",
     "license": "GPL-2.0-or-later",
     "require": {
-        "behat/mink": "1.7.x-dev",
+        "behat/mink": "1.8.0 | 1.7.1.1 | 1.7.x-dev",
         "behat/mink-goutte-driver": "~1.2",
         "drupal/coder": "8.2.12",
         "jcalderonzumba/gastonjs": "~1.0.2",
@@ -15,6 +15,7 @@
         "symfony/css-selector": "~2.8"
     },
     "conflict": {
-        "drupal/core-recommended-dev-dependencies": "*"
+        "drupal/pinned-dev-dependencies": "*",
+        "webflo/drupal-core-require-dev": "*"
     }
 }
